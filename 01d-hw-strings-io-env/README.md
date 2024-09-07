@@ -113,7 +113,7 @@ ASCII has limitations in that it only supports 127 unique characters
 widely used of which is Unicode.  Unicode has the ambitious goal of having a
 mapping for "every character in every human language" (man page for
 `charsets(7)`).  ASCII is a subset of Unicode: if a byte value is less than 128,
-then it is ASCII, but if it greater, then then it is encoded for Unicode,
+then it is ASCII, but if it greater, then it is encoded for Unicode,
 typically using a byte encoding called UTF-8.  For example, the following array
 of six bytes together represent the two simplified Chinese characters that mean
 "Taiwan", followed by an (ASCII) newline:
@@ -202,7 +202,7 @@ examples of this later in the assignment.
 ## Summary and Main Points
 
 While you will get more hands on with `printf()` and friends in the exercises
-at follow, the most important things are:
+that follow, the most important things are:
 
  - Text is really just a bunch of integer values that an application (e.g., a
    terminal) knows how to interpret and present a certain way--i.e., as text.
